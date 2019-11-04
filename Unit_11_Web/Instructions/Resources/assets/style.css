@@ -1,0 +1,153 @@
+body {
+    font-family: MS Sans Serif;
+    font-size: 10px;
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: auto;
+    background-color: #DCDCDC;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: auto;
+}
+
+.alice {
+    display: block;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: #708090;
+    margin-top: 4%;
+    margin-left: 10%;
+
+}
+
+h2,h4 {
+    font-size: 30px;
+    color: #2F4F4F;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.aside-menu {
+    font-size: 20px;
+    color: #2F4F4F;
+    text-align: left;
+    margin-top: 1px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+}
+
+.aside-menu li {
+    font-weight: 300;
+    list-style: none;
+
+}
+
+img {
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+.aside-menu a {
+    padding-left: 0;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.title {
+
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 10%;
+    color: #2F4F4F;
+
+}
+
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 4px;
+    background-color: #53868B;
+    position: relative;
+}
+
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+p {
+    color: #2F4F4F;
+    font-size: 25px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+progress {
+    margin-left: 20px;
+    width: 80%;
+    height: 25px;
+}
+
+.footer {
+    color: #2F4F4F;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+#right h3.radius {
+    font-size: 40px;
+    background: #a3f8ff;
+    color: #708090;
+    padding: 10px;
+    margin-left: 60px;
+    border-radius: 5px;
+    display: inline;
+    clear: both;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 700px;
+    height: 200px;
+    text-align: left;
+    border-collapse: collapse;
+    color: #2F4F4F;
+    font-size: 20px;
+
+}
+
+td {
+
+    padding-left: 20px;
+}
